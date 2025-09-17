@@ -31,18 +31,15 @@
 ```
 SCOPE-DEL/
 ├── notebooks/
-│   ├── DataPreprocessing.ipynb           # Data curation & standardization
-│   ├── GTM_GMM_optimization_benchmark.ipynb
 │   └── Analysis_results.ipynb            # Metrics, comparisons, figure export
 ├── data/
 │   ├── raw/                              # Input sources (unmodified)
 │   └── processed/                        # Cleaned data ready for modeling
 ├── results/
-│   ├── figures/                          # PNG/SVG plots & landscapes
-│   └── tables/                           # CSV summaries & metrics
+│   ├── dels_100/                         # Metrics
 ├── docs/
 │   └── assets/
-│       └── SCOPE-del-logo.png             # ← put your README image here
+│       └── SCOPE-del-logo.png            
 ├── pyproject.toml                        # PDM project config
 ├── pdm.lock                              # Locked dependency graph (generated)
 ├── LICENSE                               # MIT
